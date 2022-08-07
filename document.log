@@ -1,0 +1,34 @@
+1. Basic Modules
+    - PySide6.QtCore:
+        + Feature:
+            + powerful mechanism for seamless object communication called signals and slots
+            + queryable and designable object properties
+            + hierachical and queryable object trees
+        + Using the module:
+            + import PySide6.QtCore
+        + Threading and ConCurrent Programming
+            + QT provides thread support in the form of platform-independent threading classes,
+            a thread-safe way of posting events, and signal-slot connections across threads.
+            Multithreaded programming is also a useful paradigm for performing time-consuming
+            operations without freezing the user interface of an application.
+        + Inputs/Outputs and Resources:
+            + Qt provides a resource system for organizing application files and assets, a set
+              of containers, and classes for receiving input and printing output.
+            + In addition, Qt Core provides a platform-independent mechanism for storing binary
+              files in the application's executable.
+        + List of Classes: 
+    - PySide6.QtGui:
+        + Detailed Description:
+            + The QT Gui module provides classes for windowing system intergration, event handling, OpenGL, and OpenGL ES intergration,
+              2D graphics, basic imaging, fonts, and texts.
+            + For QT-user interface technology
+            + If for dev, like Qt Quick
+        + Application Windows:
+            + The most application classes in Gt GUI are: QGuiApplication, and QWindow
+
+            + QGuiApplication contains the main event loop, where all events from the window system and other sources are processed and dispatched.
+            + It also handles the application's initialization and finalization
+
+            + The QWindow class represents a window in the underlying windowing system. It provides a number of virtual functions to handle events (QEvent)
+              from the windowing system, such as touch-input, exposure, focus, key strokes, and geometry changes.
+
