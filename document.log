@@ -37,7 +37,8 @@
         + Qt -> Qt Designer Form -> Main Window
         + sudo apt-get install python3-pyqt5 
         + 
-3. qTextBox.py
+3. Reference: https://pythonpyqt.com/pyqt-label/ 
++ a) qTextBox.py
 from PyQt5.QtWidgets import QApplication,QWidget,QTextEdit,QVBoxLayout,QPushButton
 import sys
 
