@@ -2,8 +2,8 @@ from ctypes import alignment
 from pickletools import pyset
 import PySide6.QtCore
 
-print(PySide6.__version__)
-print(PySide6.QtCore.__version__)
+# print(PySide6.__version__)
+# print(PySide6.QtCore.__version__)
 
 import sys
 import random
@@ -12,6 +12,9 @@ from PySide6 import QtCore,QtWidgets,QtGui
 class MyWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
+        self.initUI()
+
+    def initUI(self):
         self.hello = ["Hello everyone", "Xin chao", "A nhong a xe o"]
         self.button = QtWidgets.QPushButton("Click me")
         self.text = QtWidgets.QLabel("Hello World", alignment = QtCore.Qt.AlignCenter)
