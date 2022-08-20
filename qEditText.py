@@ -4,7 +4,9 @@ import os, sys
 class qEditTextExample(QWidget):
     def __init__(self, parent = None):
         super().__init__(parent)
+        self.initUI()
 
+    def initUI(self):
         self.setWindowTitle("This is my first program - qEditText")
         self.resize(500, 400)
 
